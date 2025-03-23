@@ -4,6 +4,7 @@ import { Hono } from 'hono'
 const app = new Hono<{
   Bindings: {
     MY_VAR: string
+    
   }
   Variables: {
     MY_VAR_IN_VARIABLES: string
